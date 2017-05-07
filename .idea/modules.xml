@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RxJavaPlayground.iml" filepath="$PROJECT_DIR$/.idea/modules/RxJavaPlayground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RxJavaPlayground_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RxJavaPlayground_main.iml" group="RxJavaPlayground" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RxJavaPlayground_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RxJavaPlayground_test.iml" group="RxJavaPlayground" />
+    </modules>
+  </component>
+</project>
