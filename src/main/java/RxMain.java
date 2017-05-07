@@ -10,14 +10,14 @@ import java.util.concurrent.TimeUnit;
 public class RxMain {
 
     public static void main(String[] args) {
-        //commonSubjectExample();
-        //replaySubjectExample();
-        //replySubjectWithFixedBuffer();
+        commonSubjectExample();
+        replaySubjectExample();
+        replySubjectWithFixedBuffer();
         replySubjectWithFixedTime();
     }
 
     private static void replySubjectWithFixedTime() {
-        ReplaySubject<Integer> s = ReplaySubject.createWithTime(250, TimeUnit.MILLISECONDS,
+        ReplaySubject<Integer> s = ReplaySubject.createWithTime(150, TimeUnit.MILLISECONDS,
                 Schedulers.trampoline());
         s.onNext(0);
         try {
