@@ -5,7 +5,7 @@ import io.reactivex.subjects.ReplaySubject;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by Abir Hasan on 07-May-17.
+ * Created by Abir Hasan on 07-May-17
  */
 public class RxMain {
 
